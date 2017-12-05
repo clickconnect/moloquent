@@ -104,7 +104,7 @@ abstract class EmbedsOneOrMany extends Relation
      *
      * @return \Illuminate\Database\Eloquent\Collection
      */
-    public function get( $columns = Array )
+    public function get( $columns = [] )
     {
         return $this->getResults();
     }
